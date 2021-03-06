@@ -81,6 +81,8 @@ function draw(){
     if(backgroundImg){
         background(backgroundImg);
     }
+   else{
+   background('skyblue')}
     Engine.update(engine);
     textSize(30);
     fill("white");
